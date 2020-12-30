@@ -1,3 +1,142 @@
 * {
   box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+}
+
+.front {
+  background-image: url('../assets/photo-1510673398445-94f476ef2cbc.jpg');
+  display: flex;
+  margin: 0%;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 64px;
+  padding-bottom: 32px;
+  align-content: stretch;
+  justify-content: space-around;
+}
+
+.front-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: transparent;
+}
+
+.front-left-title {
+  font-size: 40px;
+  background-color: transparent;
+}
+.front-left-content {
+  margin-bottom: 2em;
+  background-color: transparent;
+}
+
+.front-left-button {
+  width: 10em;
+  height: 2.5em;
+  border-radius: 0.25em;
+  font-size: 32px;
+  background-color: white;
+  color: black;
+}
+
+.front-right {
+  display: flex;
+  background-color: transparent;
+}
+
+.front-right-content {
+  background-color: transparent;
+}
+
+.img-description {
+  background-color: transparent;
+}
+
+.img-title {
+  background-color: transparent;
+}
+
+.img-name {
+  background-color: transparent;
+}
+
+.collection {
+  display: flex;
+  flex-direction: column;
+}
+
+.collection-head {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 3em;
+}
+
+.collection-detail {
+  padding-left: 2em;
+  padding-top: 0.5em;
+  font-size: 16px;
+}
+.collection-content {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-around;
+}
+
+.collection-circle {
+  align-self: center;
+}
+.submission {
+  display: flex;
+  padding-top: 5em;
+  flex-direction: column;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.submission-title {
+  padding-bottom: 1.5em;
+}
+
+.submission-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.submission-description {
+  padding-bottom: 1.5em;
+}
+
+.submission-name-title {
+  padding-bottom: 1em;
+}
+
+.submission-names {
+  display: flex;
+}
+
+.submission-name {
+  background-color: #333333;
+  width: 10em;
+  height: 3em;
+  margin-right: 1em;
+  padding: 1em;
+}
+
+.submission-photo-box {
+  border: 1px solid #ffffff;
+  background-color: #333333;
+  border-style: dashed;
+  width: 25em;
+  height: 10em;
+  padding-top: 2em;
+  padding-left: 8em;
+}
+
+.submission-button {
 }
